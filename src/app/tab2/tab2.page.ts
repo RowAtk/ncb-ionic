@@ -9,4 +9,8 @@ export class Tab2Page {
 
   constructor() {}
 
+  goTo(loc) {
+    location.assign(loc)
+  }
+
 }
